@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "spindoctor-qwerty",
+  "version": "1.1.0",
+  "description": "SpinDoctor 3.1.2 quantum-circuit SIMULATOR for ChatGPT and Codex: q.* scripts (1-298 logical qubits, 59 per entangled factor), 241 presets, q.folder, theory testing from files or the chat, TXT/PDF/JSON/CSV reports. Bundled standard-library Python engine (NumPy optional). Classical FP64 simulation, not a quantum computer.",
+  "author": {
+    "name": "RUSSELL PHILIP SMITHSON",
+    "email": "russellsmithson77@outlook.com",
+    "url": "https://github.com/LKVexa"
+  },
+  "homepage": "https://github.com/LKVexa/spindoctor-qwerty-chatgpt-codex",
+  "repository": "https://github.com/LKVexa/spindoctor-qwerty-chatgpt-codex",
+  "license": "GPL-3.0-or-later",
+  "keywords": [
+    "quantum",
+    "quantum-circuit",
+    "simulator",
+    "spindoctor",
+    "qubits",
+    "presets",
+    "mcp",
+    "qwerty"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SpinDoctor Qwerty",
+        "shortDescription": "Classical quantum-circuit simulator: q.* scripts, 241 presets, theory tests, TXT/PDF reports",
+        "longDescription": "SpinDoctor 3.1.2 quantum-circuit SIMULATOR for ChatGPT and Codex: q.* scripts (1-298 logical qubits, 59 per entangled factor), 241 presets, q.folder, theory testing from files or the chat, TXT/PDF/JSON/CSV reports. Bundled standard-library Python engine (NumPy optional). Classical FP64 simulation, not a quantum computer.",
+        "developerName": "RUSSELL PHILIP SMITHSON",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/LKVexa/spindoctor-qwerty-chatgpt-codex",
+        "defaultPrompt": [
+          "Use SpinDoctor Qwerty to show its function table.",
+          "Use SpinDoctor Qwerty to build a Bell circuit and run 1000 shots.",
+          "Use SpinDoctor Qwerty to test the theory we discussed."
+        ]
+      }
+    }
+  }
+}
