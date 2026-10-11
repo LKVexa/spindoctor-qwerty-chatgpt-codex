@@ -1,0 +1,24 @@
+SpinDoctor Qwerty for ChatGPT / Codex (spindoctor-qwerty-chatgpt-codex)
+Copyright (C) 2026 RUSSELL PHILIP SMITHSON <russellsmithson77@outlook.com>
+Licensed under the GNU General Public License v3.0 or later (GPL-3.0-or-later); see LICENSE.
+
+Author: RUSSELL PHILIP SMITHSON <russellsmithson77@outlook.com>
+
+This product bundles the SpinDoctor Qwerty engine 1.1.0, a pure-Python (standard library only) port of the
+SpinDoctor 3.1.2 quantum-circuit simulator semantics (update 3.1.2-298-20261010), by the same author.
+
+SpinDoctor is a CLASSICAL simulator: it runs FP64 arithmetic on an ordinary computer. It is not a quantum computer,
+does not connect to quantum hardware, and claims no quantum speed-up or quantum advantage.
+
+Third-party names (host applications, file formats, protocols) are trademarks of their respective owners and are used
+only to describe compatibility. No third-party code is vendored in this repository except the item listed below.
+
+Third-party files
+-----------------
+tests/schemas/agent-plugins/1.0.0/*.schema.json and tests/schemas/agent-plugins/1.1.0/*.schema.json are the official
+Agent Plugins JSON schemas, copied unmodified from https://github.com/agentplugins/agent-plugins-spec (commit
+ff8ab5e392cc87bd88d87c060815a87490e51003). They are licensed under the Apache License 2.0; the license text is
+in tests/schemas/agent-plugins/LICENSE-Apache-2.0.txt. They are used only by tests/codex_host_check.py for offline
+validation and are not part of the plugin.
+
+OpenAI, ChatGPT and Codex are trademarks of OpenAI. This project is not affiliated with or endorsed by OpenAI.
