@@ -58,4 +58,11 @@ Notes:
 
 ## Post-push check
 
-See the bottom of this file after publication.
+After publishing (commit 57d966001f9884910efd0dd27da64e99d9455045), the repo was cloned back from GitHub into a fresh folder:
+
+- 57/57 files byte-identical to the staged copy.
+- **Real Codex, straight from GitHub:** `codex plugin marketplace add LKVexa/spindoctor-qwerty-chatgpt-codex` +
+  `codex plugin add spindoctor-qwerty@spindoctor-qwerty-marketplace` -> installed, enabled, 1.1.0; `codex mcp list` shows the server;
+  end-to-end through Codex on that GitHub-installed copy **12/12**.
+- From the clone, empty environment: `tests/codex_host_check.py` with real Codex **14/14** (end-to-end 12/12); stand-in host
+  (host-simulated) **9/9** (end-to-end 12/12).
