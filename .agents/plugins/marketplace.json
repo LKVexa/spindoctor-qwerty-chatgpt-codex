@@ -1,0 +1,20 @@
+{
+  "name": "spindoctor-qwerty-marketplace",
+  "interface": {
+    "displayName": "SpinDoctor Qwerty"
+  },
+  "plugins": [
+    {
+      "name": "spindoctor-qwerty",
+      "source": {
+        "source": "local",
+        "path": "./plugins/spindoctor-qwerty"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
